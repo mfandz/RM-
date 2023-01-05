@@ -3,7 +3,6 @@
 #include"cv_bridge/cv_bridge.h"
 #include"sensor_msgs/msg/image.h"
 #include"video_interfaces/msg/pos.hpp"
-#include"video_interfaces/msg/image.hpp"
 #include"std_msgs/msg/float32.hpp"
 #include"eigen3/Eigen/Core"
 #include"eigen3/Eigen/Geometry"
