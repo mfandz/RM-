@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from video_interfaces/srv/Posdis.srv
+// generated code does not contain a copyright notice
+
+
+module video_interfaces {
+  module srv {
+    struct Posdis_Request {
+      float x1;
+
+      float y1;
+
+      float x2;
+
+      float y2;
+
+      boolean open;
+    };
+    struct Posdis_Response {
+      float x1_predict;
+
+      float y1_predict;
+
+      float x2_predict;
+
+      float y2_predict;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from video_interfaces/msg/Kmf.msg
+// generated code does not contain a copyright notice
+
+
+module video_interfaces {
+  module msg {
+    struct Kmf {
+      float x1;
+
+      float y1;
+
+      float x2;
+
+      float y2;
+    };
+  };
+};

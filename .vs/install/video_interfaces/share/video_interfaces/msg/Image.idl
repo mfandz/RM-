@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from video_interfaces/msg/Image.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module video_interfaces {
+  module msg {
+    struct Image {
+      sensor_msgs::msg::Image img_pre;
+
+      sensor_msgs::msg::Image img_th1;
+    };
+  };
+};
