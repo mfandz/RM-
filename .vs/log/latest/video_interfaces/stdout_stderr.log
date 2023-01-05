@@ -1,0 +1,262 @@
+[  1%] Built target video_interfaces__cpp
+[ 12%] Built target video_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_video_interfaces
+[ 23%] Built target video_interfaces__rosidl_typesupport_cpp
+[ 36%] Built target video_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target video_interfaces__rosidl_typesupport_introspection_cpp
+[ 69%] Built target video_interfaces__rosidl_typesupport_c
+[ 69%] Built target video_interfaces__rosidl_typesupport_introspection_c
+[ 78%] Built target video_interfaces__rosidl_typesupport_fastrtps_c
+[ 78%] Built target video_interfaces
+[ 80%] Built target video_interfaces__py
+[ 89%] Built target video_interfaces__rosidl_generator_py
+[100%] Built target video_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target video_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target video_interfaces__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing video_interfaces.egg-info/PKG-INFO
+writing dependency_links to video_interfaces.egg-info/dependency_links.txt
+writing top-level names to video_interfaces.egg-info/top_level.txt
+reading manifest file 'video_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'video_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_video_interfaces_egg
+-- Install configuration: ""
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/ament_index/resource_index/rosidl_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/image.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/pos.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/send.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/kmfs.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/kmf.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/posdis.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/kmf.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__type_support.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__functions.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__struct.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__functions.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/library_path.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/library_path.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__type_support.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/kmf.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/image.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/pos.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/send.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/kmfs.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/kmf.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/posdis.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__struct.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__builder.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__traits.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/dds_fastrtps
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/send__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/pos__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmfs__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/image__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/msg/detail/kmf__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/posdis__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/include/video_interfaces/video_interfaces/srv/detail/kmf__type_support.cpp
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/pythonpath.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/__init__.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/libvideo_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/__init__.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_image_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_kmfs.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_send_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_pos_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_kmf.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_kmfs_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_pos.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_send.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_kmf_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg/_image.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv/__init__.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv/_kmf.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv/_posdis.py
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv/_kmf_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv/_posdis_s.c
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces'...
+Listing '/home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/msg'...
+Listing '/home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/srv'...
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/lib/libvideo_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Pos.idl
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Send.idl
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Kmf.idl
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Kmfs.idl
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Pos.msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Send.msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Kmf.msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/msg/Kmfs.msg
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/ament_index/resource_index/package_run_dependencies/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/ament_index/resource_index/parent_prefix_path/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/path.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/environment/path.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/local_setup.bash
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/local_setup.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/local_setup.zsh
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/local_setup.dsv
+-- Installing: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/ament_index/resource_index/packages/video_interfaces
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfacesConfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/cmake/video_interfacesConfig-version.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.xml

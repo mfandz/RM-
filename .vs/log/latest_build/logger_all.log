@@ -1,0 +1,364 @@
+[0.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.207s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f11674dc220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1167e60df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1167e60df0>>)
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mfz/rmtest1'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(exelabeljpg) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image' with type 'ros.ament_cmake' and name 'image'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/ved_select) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ved_select' with type 'ros.ament_cmake' and name 'ved_select'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_interfaces' with type 'ros.ament_cmake' and name 'video_interfaces'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_kmf) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_kmf' with type 'ros.ament_cmake' and name 'video_kmf'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mfz/rmtest1/install
+[0.261s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 315 installed packages in /opt/ros/humble
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.303s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'video_interfaces' is in: /home/mfz/rmtest1/install/video_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding video_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'video_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'video_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mfz/rmtest1/build/video_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mfz/rmtest1/install/video_interfaces', 'merge_install': False, 'path': '/home/mfz/rmtest1/src/video_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mfz/rmtest1/build/image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mfz/rmtest1/install/image', 'merge_install': False, 'path': '/home/mfz/rmtest1/src/image', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'ved_select' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'ved_select' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mfz/rmtest1/build/ved_select', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mfz/rmtest1/install/ved_select', 'merge_install': False, 'path': '/home/mfz/rmtest1/src/ved_select', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'video_kmf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'video_kmf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mfz/rmtest1/build/video_kmf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mfz/rmtest1/install/video_kmf', 'merge_install': False, 'path': '/home/mfz/rmtest1/src/video_kmf', 'symlink_install': False, 'test_result_base': None}
+[0.307s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mfz/rmtest1/src/video_interfaces' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mfz/rmtest1/src/video_interfaces'
+[0.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/video_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_interfaces -- -j16 -l16
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/video_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_interfaces -- -j16 -l16
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/video_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_interfaces
+[0.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_interfaces)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces' for CMake module files
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces' for CMake config files
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/video_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_interfaces
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_interfaces', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.sh'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib'
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_interfaces', 'ld_library_path_lib')
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.sh'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/bin'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib/pkgconfig/video_interfaces.pc'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib/python3.10/site-packages'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/bin'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.zsh'
+[0.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/video_interfaces/share/colcon-core/packages/video_interfaces)
+[0.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_interfaces)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces' for CMake module files
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces' for CMake config files
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_interfaces', 'cmake_prefix_path')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib'
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_interfaces', 'ld_library_path_lib')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/hook/ld_library_path_lib.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib/pkgconfig/video_interfaces.pc'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/lib/python3.10/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_interfaces/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_interfaces/share/video_interfaces/package.zsh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/video_interfaces/share/colcon-core/packages/video_interfaces)
+[0.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mfz/rmtest1/src/image' with build type 'ament_cmake'
+[0.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mfz/rmtest1/src/image'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mfz/rmtest1/src/ved_select' with build type 'ament_cmake'
+[0.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mfz/rmtest1/src/ved_select'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mfz/rmtest1/src/video_kmf' with build type 'ament_cmake'
+[0.729s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mfz/rmtest1/src/video_kmf'
+[0.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/image': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/image -- -j16 -l16
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/ved_select': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/ved_select -- -j16 -l16
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/video_kmf': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_kmf -- -j16 -l16
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/ved_select' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/ved_select -- -j16 -l16
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/video_kmf' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_kmf -- -j16 -l16
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/ved_select': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/ved_select
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/video_kmf': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_kmf
+[0.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_kmf)
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf' for CMake module files
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf' for CMake config files
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_kmf', 'cmake_prefix_path')
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.sh'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/bin'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib/pkgconfig/video_kmf.pc'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib/python3.10/site-packages'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/bin'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.ps1'
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/video_kmf' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_kmf
+[0.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.sh'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.bash'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.zsh'
+[0.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/video_kmf/share/colcon-core/packages/video_kmf)
+[0.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ved_select)
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select' for CMake module files
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/ved_select' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/ved_select
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select' for CMake config files
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('ved_select', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.dsv'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.sh'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/bin'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib/pkgconfig/ved_select.pc'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib/python3.10/site-packages'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/bin'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.dsv'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.sh'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/ved_select/share/colcon-core/packages/ved_select)
+[0.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_kmf)
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf' for CMake module files
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf' for CMake config files
+[0.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_kmf', 'cmake_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.dsv'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/hook/cmake_prefix_path.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib/pkgconfig/video_kmf.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/video_kmf/bin'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.sh'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.bash'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.zsh'
+[0.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/video_kmf/share/colcon-core/packages/video_kmf)
+[0.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ved_select)
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select' for CMake config files
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('ved_select', 'cmake_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/ved_select/share/ved_select/hook/cmake_prefix_path.sh'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/bin'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib/pkgconfig/ved_select.pc'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/lib/python3.10/site-packages'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/ved_select/bin'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.sh'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.bash'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/ved_select/share/ved_select/package.zsh'
+[0.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/ved_select/share/colcon-core/packages/ved_select)
+[5.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/image' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/image -- -j16 -l16
+[5.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mfz/rmtest1/build/image': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/image
+[5.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image)
+[5.709s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image' for CMake module files
+[5.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mfz/rmtest1/build/image' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/image
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image' for CMake config files
+[5.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('image', 'cmake_prefix_path')
+[5.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.ps1'
+[5.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.dsv'
+[5.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.sh'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/bin'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib/pkgconfig/image.pc'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib/python3.10/site-packages'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/bin'
+[5.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.ps1'
+[5.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/image/share/image/package.dsv'
+[5.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.sh'
+[5.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.bash'
+[5.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.zsh'
+[5.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/image/share/colcon-core/packages/image)
+[5.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image)
+[5.736s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image' for CMake module files
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image' for CMake config files
+[5.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('image', 'cmake_prefix_path')
+[5.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.ps1'
+[5.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.dsv'
+[5.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mfz/rmtest1/install/image/share/image/hook/cmake_prefix_path.sh'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/bin'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib/pkgconfig/image.pc'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/lib/python3.10/site-packages'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/mfz/rmtest1/install/image/bin'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.ps1'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mfz/rmtest1/install/image/share/image/package.dsv'
+[5.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.sh'
+[5.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.bash'
+[5.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/mfz/rmtest1/install/image/share/image/package.zsh'
+[5.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mfz/rmtest1/install/image/share/colcon-core/packages/image)
+[5.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.749s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.758s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mfz/rmtest1/install/local_setup.ps1'
+[5.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mfz/rmtest1/install/_local_setup_util_ps1.py'
+[5.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mfz/rmtest1/install/setup.ps1'
+[5.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mfz/rmtest1/install/local_setup.sh'
+[5.763s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mfz/rmtest1/install/_local_setup_util_sh.py'
+[5.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mfz/rmtest1/install/setup.sh'
+[5.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mfz/rmtest1/install/local_setup.bash'
+[5.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mfz/rmtest1/install/setup.bash'
+[5.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mfz/rmtest1/install/local_setup.zsh'
+[5.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mfz/rmtest1/install/setup.zsh'

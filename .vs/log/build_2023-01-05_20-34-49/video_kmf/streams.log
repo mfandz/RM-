@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/mfz/rmtest1/build/video_kmf': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_kmf -- -j16 -l16
+[0.049s] [100%] Built target video_kmf
+[0.056s] Invoked command in '/home/mfz/rmtest1/build/video_kmf' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/video_kmf -- -j16 -l16
+[0.070s] Invoking command in '/home/mfz/rmtest1/build/video_kmf': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_kmf
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/include
+[0.074s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/include/video_KMF
+[0.074s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/lib/video_kmf/video_kmf
+[0.075s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/package_run_dependencies/video_kmf
+[0.077s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/parent_prefix_path/video_kmf
+[0.078s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/ament_prefix_path.dsv
+[0.078s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/path.sh
+[0.078s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/path.dsv
+[0.079s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.bash
+[0.079s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.sh
+[0.079s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.zsh
+[0.080s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.dsv
+[0.080s] -- Installing: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.dsv
+[0.081s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/packages/video_kmf
+[0.081s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.081s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.082s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/video_kmfConfig.cmake
+[0.083s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/video_kmfConfig-version.cmake
+[0.083s] -- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.xml
+[0.083s] Invoked command in '/home/mfz/rmtest1/build/video_kmf' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/video_kmf

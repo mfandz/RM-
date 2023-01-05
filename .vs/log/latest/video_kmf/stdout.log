@@ -1,0 +1,22 @@
+[100%] Built target video_kmf
+-- Install configuration: ""
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/include
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/include/video_KMF
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/lib/video_kmf/video_kmf
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/package_run_dependencies/video_kmf
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/parent_prefix_path/video_kmf
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/path.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/environment/path.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.bash
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.sh
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.zsh
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/local_setup.dsv
+-- Installing: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.dsv
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/ament_index/resource_index/packages/video_kmf
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/video_kmfConfig.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/cmake/video_kmfConfig-version.cmake
+-- Up-to-date: /home/mfz/rmtest1/install/video_kmf/share/video_kmf/package.xml

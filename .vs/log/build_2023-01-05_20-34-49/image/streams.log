@@ -1,0 +1,28 @@
+[0.014s] Invoking command in '/home/mfz/rmtest1/build/image': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/image -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target imgpre[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/imgpre.dir/src/imgpre.cpp.o[0m
+[4.532s] [100%] [32m[1mLinking CXX executable imgpre[0m
+[4.954s] [100%] Built target imgpre
+[4.962s] Invoked command in '/home/mfz/rmtest1/build/image' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --build /home/mfz/rmtest1/build/image -- -j16 -l16
+[4.977s] Invoking command in '/home/mfz/rmtest1/build/image': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/image
+[4.982s] -- Install configuration: ""
+[4.982s] -- Installing: /home/mfz/rmtest1/install/image/lib/image/imgpre
+[4.984s] -- Set runtime path of "/home/mfz/rmtest1/install/image/lib/image/imgpre" to ""
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/launch
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/launch/video.launch.py
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/ament_index/resource_index/package_run_dependencies/image
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/ament_index/resource_index/parent_prefix_path/image
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/environment/ament_prefix_path.sh
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/environment/ament_prefix_path.dsv
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/environment/path.sh
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/environment/path.dsv
+[4.984s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/local_setup.bash
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/local_setup.sh
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/local_setup.zsh
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/local_setup.dsv
+[4.985s] -- Installing: /home/mfz/rmtest1/install/image/share/image/package.dsv
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/ament_index/resource_index/packages/image
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/cmake/imageConfig.cmake
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/cmake/imageConfig-version.cmake
+[4.985s] -- Up-to-date: /home/mfz/rmtest1/install/image/share/image/package.xml
+[4.988s] Invoked command in '/home/mfz/rmtest1/build/image' returned '0': CMAKE_PREFIX_PATH=/home/mfz/rmtest1/install/video_interfaces:/home/mfz/rmtest1/install/video_kmf:/home/mfz/rmtest1/install/ved_select:/home/mfz/rmtest1/install/image:/opt/ros/humble /usr/bin/cmake --install /home/mfz/rmtest1/build/image
